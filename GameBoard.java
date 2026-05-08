@@ -112,38 +112,29 @@ public class GameBoard {
         if (moved) {
             board[currentRow][currentCol] = piece;
             board[row][col] = ' ';
-        }
-
-        boolean stacked = checkForStacking(currentRow, currentCol);
-        return moved || stacked;
-    }
-
-    private boolean checkForStacking(int row, int col) {
-        if (board[row][col] != 's') {
+        } else {
             return false;
         }
 
-        // Small snowball plus large snowball makes a stack.
-        int[][] directions = {
-                {-1, 0},
-                {1, 0},
-                {0, -1},
-                {0, 1}
-        };
+        return true;
+    }
 
-        for (int i = 0; i < directions.length; i++) {
-            int newRow = row + directions[i][0];
-            int newCol = col + directions[i][1];
-            if (newRow >= 0 && newRow < getRows() && newCol >= 0 && newCol < getCols()) {
-                if (board[newRow][newCol] == 'L') {
-                    board[newRow][newCol] = 'S';
-                    board[row][col] = ' ';
-                    return true;
-                }
-            }
+    public boolean stackSnowballs(int smallRow, int smallCol, int largeRow, int largeCol) {
+        if (board[smallRow][smallCol] != 's' || board[largeRow][largeCol] != 'L') {
+            return false;
         }
 
-        return false;
+        int rowDistance = Math.abs(smallRow - largeRow);
+        int colDistance = Math.abs(smallCol - largeCol);
+        boolean nextToEachOther = rowDistance + colDistance == 1;
+
+        if (!nextToEachOther) {
+            return false;
+        }
+
+        board[largeRow][largeCol] = 'S';
+        board[smallRow][smallCol] = ' ';
+        return true;
     }
 
     public boolean placeHead(int headRow, int headCol, int targetRow, int targetCol) {

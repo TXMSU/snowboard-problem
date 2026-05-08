@@ -454,7 +454,7 @@ L...s
 
 Level 74
 TLL..
-.ss.Y
+.ss.R
 B....
 ...T.
 

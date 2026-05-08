@@ -180,6 +180,11 @@ public class Main {
             if (!changed) {
                 messageLabel.setText("Heads can only go on an adjacent stack.");
             }
+        } else if (selectedPiece == 's' && clickedPiece == 'L') {
+            changed = gameBoard.stackSnowballs(selectedRow, selectedCol, row, col);
+            if (!changed) {
+                messageLabel.setText("Small snowballs only stack on a large snowball next to it.");
+            }
         } else if (row == selectedRow || col == selectedCol) {
             String direction = getDirection(row, col);
             changed = gameBoard.movePiece(selectedRow, selectedCol, direction);
@@ -206,6 +211,8 @@ public class Main {
                 }
             } else if (clickedPiece == 'S') {
                 messageLabel.setText("Head added to the snowman.");
+            } else if (selectedPiece == 's' && clickedPiece == 'L') {
+                messageLabel.setText("Snowballs stacked.");
             } else {
                 messageLabel.setText("Move made.");
             }
