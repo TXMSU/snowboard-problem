@@ -1,0 +1,495 @@
+# Snow Problem levels
+#
+# These levels are written to match the Levels.pdf pictures as closely as possible.
+# You can still edit any level by changing its 4 rows.
+#
+# Each level is 4 rows by 5 columns.
+# . = empty hole
+# T = tree
+# L = large snowball
+# s = small snowball
+# R = red head
+# B = blue head
+# Y = yellow head
+#
+# Keep one blank line between levels.
+
+Level 1
+.s...
+.....
+.....
+B...L
+
+Level 2
+.....
+L..Y.
+.T..s
+.....
+
+Level 3
+T..L.
+...s.
+....R
+.T...
+
+Level 4
+T...s
+.....
+.....
+Y...L
+
+Level 5
+T.T.T
+..B..
+.....
+s...L
+
+Level 6
+..T..
+Bs.L.
+.....
+..T..
+
+Level 7
+.....
+.TT..
+....R
+s.L..
+
+Level 8
+.T.sL
+.....
+....T
+..B..
+
+Level 9
+T.s..
+...R.
+.....
+.L..T
+
+Level 10
+T.T..
+.T...
+...R.
+.s..L
+
+Level 11
+TT.Y.
+.....
+s...T
+L....
+
+Level 12
+TL..T
+.....
+.B.s.
+.....
+
+Level 13
+T.s..
+....R
+.T...
+....L
+
+Level 14
+.T...
+...T.
+s....
+..R.L
+
+Level 15
+TT..s
+....B
+L....
+..T..
+
+Level 16
+TT...
+....B
+s....
+LT...
+
+Level 17
+.T...
+....T
+T..s.
+...RL
+
+Level 18
+..TsL
+T....
+...T.
+.B...
+
+Level 19
+.T..s
+T...T
+.Y...
+...L.
+
+Level 20
+.T...
+...Y.
+L....
+..T.s
+
+Level 21
+...B.
+T....
+....T
+s.L..
+
+Level 22
+.T.s.
+T....
+B....
+..T.L
+
+Level 23
+..T..
+T...B
+.T...
+L...s
+
+Level 24
+..B..
+T...T
+.T...
+.s..L
+
+Level 25
+T.T.s
+.....
+...B.
+LT...
+
+Level 26
+T.L..
+....T
+T....
+s..R.
+
+Level 27
+.T..s
+....T
+R....
+..TL.
+
+Level 28
+T....
+....T
+s....
+L..B.
+
+Level 29
+.....
+.Y.B.
+Ls.sL
+.....
+
+Level 30
+R.T.s
+L....
+...s.
+YLT..
+
+Level 31
+L.B.L
+T.R..
+....s
+..s..
+
+Level 32
+..R.L
+.T.Y.
+..T..
+s.L.s
+
+Level 33
+L...s
+R.Y..
+.....
+..s.L
+
+Level 34
+L.BsL
+T....
+T..Y.
+...s.
+
+Level 35
+T.TLY
+.....
+....s
+Ls.R.
+
+Level 36
+L.Y.s
+RT...
+..T..
+L...s
+
+Level 37
+Y.L.s
+.T.B.
+...T.
+L.s..
+
+Level 38
+LL.s.
+TY.BT
+.....
+..s..
+
+Level 39
+B..L.
+s.T..
+....s
+L.R..
+
+Level 40
+TB.Ls
+T.s..
+.....
+L..T.
+
+Level 41
+L...s
+..B..
+s.Y..
+L....
+
+Level 42
+L...s
+.R...
+L.Y.s
+.....
+
+Level 43
+sBT.s
+.....
+.....
+L.R.L
+
+Level 44
+....L
+.TRT.
+..Y..
+s..Ls
+
+Level 45
+.T...
+s.s.Y
+.B.T.
+L...L
+
+Level 46
+LsTLB
+T....
+.Y..s
+.....
+
+Level 47
+L.R.s
+.T.Ts
+.....
+B...L
+
+Level 48
+.T..L
+.s..T
+.....
+.YsRL
+
+Level 49
+sssL.
+T.YT.
+.LR..
+..B.L
+
+Level 50
+YLs.s
+..T.B
+L.T..
+.Rs.L
+
+Level 51
+LL.R.
+T...B
+L.T..
+sssY.
+
+Level 52
+TL..L
+...sB
+s..RL
+.sY..
+
+Level 53
+L.T..
+.Y.B.
+T....
+ss..L
+
+Level 54
+..L..
+.T..Y
+.T..B
+ss..L
+
+Level 55
+LTRBL
+.....
+...T.
+s...s
+
+Level 56
+.T.Ts
+.....
+s.Y.L
+.R.L.
+
+Level 57
+..T..
+T.sR.
+.s..Y
+L...L
+
+Level 58
+Ts..Y
+.....
+T.L..
+L..Rs
+
+Level 59
+L..L.
+.T..B
+R..T.
+.s..s
+
+Level 60
+Ls..B
+.TT..
+R....
+.s..L
+
+Level 61
+Y.R.s
+.B.LT
+Lss..
+...L.
+
+Level 62
+sssY.
+.TLLB
+.T...
+...RL
+
+Level 63
+..L.s
+..T.s
+R.Y.B
+s.L.L
+
+Level 64
+s.B..
+TR.YL
+...sT
+LL..s
+
+Level 65
+.Y.B.
+TsL..
+..s.T
+..L..
+
+Level 66
+.Y..L
+.....
+s....
+..RsL
+
+Level 67
+.L..L
+T...s
+R....
+..Bs.
+
+Level 68
+T.Ys.
+sT...
+....L
+L.R..
+
+Level 69
+L.RBL
+sT...
+...TY
+L..ss
+
+Level 70
+.Tss.
+.T.sL
+RL...
+Y..LB.
+
+Level 71
+L.T.s
+Y.T.s
+BLs..
+L...R
+
+Level 72
+LL.Ls
+TR...
+BY...
+..s.s
+
+Level 73
+.Y..s
+.....
+L...s
+...BL
+
+Level 74
+TLL..
+.ss.Y
+B....
+...T.
+
+Level 75
+sT...
+....R
+s...B
+LT..L
+
+Level 76
+L..Bs
+T.L..
+....R
+.s...
+
+Level 77
+Ts.L.
+R...s
+..TsL
+.B.YL
+
+Level 78
+.BYRL
+.....
+s...L
+ssL..
+
+Level 79
+T.L.T
+RBs..
+YLs..
+..s.L
+
+Level 80
+sT.B.
+.LLsL
+T..s.
+...YR
